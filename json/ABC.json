@@ -1,0 +1,15 @@
+{
+  "questions": [ 
+       {
+           "question": "What does SQL stand for?",
+           "answers": ["Strong Question Language", "Structured Question Language","Structured Query Language"],
+       	   "correctAnswer": 3
+       },
+       {
+           "question": "Which SQL statement is used to extract data from a database?",
+           "answers": ["SELECT", "EXTRACT","GET"],
+       	   "correctAnswer": 1
+       },
+      
+     ]
+ }

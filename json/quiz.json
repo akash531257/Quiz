@@ -1,0 +1,54 @@
+{
+  "questions": [ 
+       {
+           "question": "What does SQL stand for?",
+           "answers": ["Strong Question Language", "Structured Question Language","Structured Query Language"],
+       	   "correctAnswer": 3
+       },
+       {
+           "question": "Which SQL statement is used to extract data from a database?",
+           "answers": ["SELECT", "EXTRACT","GET"],
+       	   "correctAnswer": 1
+       },
+       {
+           "question": "Which SQL statement is used to update data in a database?",
+           "answers": ["Modify", "Save as", "Update", "Save"],
+       	   "correctAnswer": 3
+       },
+       {
+           "question": "Which SQL statement is used to delete data from a database?",
+           "answers": ["Remove", "Delete", "Collapse"],
+       	   "correctAnswer": 2
+       },
+       {
+           "question": "Which SQL statement is used to insert new data in a database?",
+           "answers": ["Insert Into", "Add","Add new"],
+       	   "correctAnswer": 1
+       },
+       {
+           "question": "With SQL, how do you select a column named 'FirstName' from a table named 'Persons'?",
+           "answers": ["SELECT Persons.FirstName", "SELECT FirstName FROM Persons"],
+       	   "correctAnswer": 2
+       },
+       {
+           "question": "With SQL, how do you select all the columns from a table named 'Persons'?",
+           "answers": ["SELECT Persons", "SELECT [all] FROM Persons", "SELECT * FROM Persons"],
+       	   "correctAnswer": 3
+       },
+       {
+           "question": "Which of the following primitive types can only have two possible values?",
+           "answers": ["byte", "char", "boolean", "short"],
+       	   "correctAnswer": 3
+       },
+       {
+           "question": "With SQL, how do you select all the records from a table named 'Persons'' where the value of the column 'FirstName' starts with an 'a'?",
+           "answers": ["SELECT * FROM Persons WHERE FirstName LIKE 'a%'", " SELECT * FROM Persons WHERE FirstName='a'", "SELECT * FROM Persons WHERE FirstName LIKE '%a'", "SELECT * FROM Persons WHERE FirstName LIKE '%a%'"],
+       	   "correctAnswer": 1
+       },
+       {
+           "question": " The OR operator displays a record if ANY conditions listed are true. The AND operator displays a record if ALL of the conditions listed are true",
+           "answers": ["True", "False"],
+       	   "correctAnswer": 1
+       }
+     ]
+ }
